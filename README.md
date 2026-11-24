@@ -1,6 +1,6 @@
-# HealthSync
+# MediSync
 
-An AI-powered preventive healthcare and clinical monitoring system built with the MERN stack (MongoDB, Express, React, Node.js). HealthSync provides intelligent symptom tracking, personalized diet and wellness planning, medication adherence scheduling, daily vitals monitoring, multi-channel notifications (SMS & Email), and comprehensive clinical PDF report generation.
+An AI-powered preventive healthcare and clinical monitoring system built with the MERN stack (MongoDB, Express, React, Node.js). MediSync provides intelligent symptom tracking, personalized diet and wellness planning, medication adherence scheduling, daily vitals monitoring, multi-channel notifications (SMS & Email), and comprehensive clinical PDF report generation.
 
 ---
 
@@ -105,8 +105,8 @@ An AI-powered preventive healthcare and clinical monitoring system built with th
 
 #### 1. Clone the repository
 ```bash
-git clone https://github.com/Tarun-ys19/MediSync.git
-cd HEALTHSYNC_MERN
+git clone [https://github.com/Tarun-ys19/MediSync.git](https://github.com/Tarun-ys19/MediSync.git)
+cd MEDISYNC_MERN
 ```
 
 #### 2. Configure Backend Environment
@@ -114,7 +114,7 @@ Create a `.env` file in the `backend/` directory:
 
 ```env
 PORT=5000
-MONGODB_URI=mongodb+srv://<username>:<password>@cluster.mongodb.net/healthsync?retryWrites=true&w=majority
+MONGODB_URI=mongodb+srv://<username>:<password>@cluster.mongodb.net/medisync?retryWrites=true&w=majority
 JWT_SECRET=your_jwt_secret_key_here
 BIOMISTRAL_API_KEY=your_gemini_api_key
 
@@ -191,4 +191,3 @@ cd frontend
 npm run build
 ```
 The compiled output is located in `frontend/dist/`. For end-to-end cloud hosting on Vercel and Render, refer to [DEPLOYMENT.md](DEPLOYMENT.md).
-
